@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sítio Jacarandá - Refúgio Natural em São Tomé das Letras</title>
+    <meta name="description" content="Hospedagem premium em meio à natureza de São Tomé das Letras - MG. Conforto, tranquilidade e conexão com o ambiente natural.">
+    <meta property="og:title" content="Sítio Jacarandá - Refúgio Natural">
+    <meta property="og:image" content="URL_DA_IMAGEM">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!-- Pré-conexão para fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fontes Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="imagens/casa.png">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="header__container container">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon"><i class="fas fa-tree"></i></span>
+                <span class="header__logo-text">Sítio Jacarandá</span>
+            </a>
+            
+            <button class="header__menu-toggle" aria-label="Abrir menu">
+                <span class="header__menu-line"></span>
+                <span class="header__menu-line"></span>
+                <span class="header__menu-line"></span>
+            </button>
+            
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#hero" class="header__nav-link active">Início</a></li>
+                    <li class="header__nav-item"><a href="#about" class="header__nav-link">Sobre</a></li>
+                    <li class="header__nav-item"><a href="#gallery" class="header__nav-link">Galeria</a></li>
+                    <li class="header__nav-item"><a href="#booking" class="header__nav-link">Reservas</a></li>
+                    <li class="header__nav-item"><a href="#location" class="header__nav-link">Localização</a></li>
+                    <li class="header__nav-item"><a href="#contact" class="header__nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section | Carrocel de imagens-->
+    <section class="hero" id="hero">
+        <div class="hero__slider">
+            <!-- Slide 1 -->
+            <div class="hero__slide">
+                <picture>
+                    <source srcset="imagens/sitio-cima.avif" type="image/avif">
+                    <source srcset="imagens/sitio-cima.webp" type="image/webp">
+                    <img src="imagens/sitio-cima.jpg" alt="Vista do Sítio Jacarandá" class="hero__bg-image">
+                </picture>
+                <div class="hero__content">
+                    <span class="hero__badge">🏆 TOP 1% Airbnb</span>
+                    <h1 class="hero__title">Conforto Autêntico<br>em Meio à Natureza</h1>
+                    <p class="hero__text">Refúgio perfeito em São Tomé das Letras com piscina natural, trilhas privativas e vista panorâmica</p>
+                    <a href="#booking" class="hero__button button button--primary">
+                        <i class="fas fa-calendar-alt"></i> Reserve Agora
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="hero__slide">
+                <picture>
+                    <source srcset="imagens/sitio-cima2.avif" type="image/avif">
+                    <source srcset="images/sitio-cima2.webp" type="image/webp">
+                    <img src="imagens/sitio-cima2.jpg" alt="Outra vista do Sítio Jacarandá" class="hero__bg-image">
+                </picture>
+                <div class="hero__content">
+                    <span class="hero__badge">Experiência única</span>
+                    <h1 class="hero__title">Hospedagem premium</h1>
+                    <p class="hero__text">9 anos de excelência em hospedagem com avaliação 5 estrelas</p>
+                    <a href="#about" class="hero__button button button--primary">Conheça mais</a>
+                </div>
+                <div class="hero__extra-text hero__extra-text--right">
+                    <p>Natureza preservada a 20 minutos do centro</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero__scroll">
+            <span class="hero__scroll-text">Explore</span>
+            <i class="fas fa-chevron-down hero__scroll-icon"></i>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">O Refúgio</span>
+                <h2 class="section__title">Sítio Jacarandá</h2>
+                <div class="section__divider"></div>
+            </div>
+            <div class="about__grid">
+                <div class="about__image">
+                    <div class="about__image-main" style="background-image: url('imagens/coruja.jpeg');"></div>
+                    <div class="about__image-secondary" style="background-image: url('imagens/riacho.avif');"></div>
+                </div>
+                
+                <div class="about__content">
+                    <h3 class="about__title">Um oásis de tranquilidade</h3>
+                    <p class="about__text">Localizado a apenas 20 minutos do centro de São Tomé das Letras, o Sítio Jacarandá oferece a combinação perfeita entre comodidade moderna e contato com a natureza.</p>
+                    
+                    <div class="about__features">
+                        <div class="about__feature">
+                            <i class="fas fa-leaf about__feature-icon"></i>
+                            <div class="about__feature-content">
+                                <h4 class="about__feature-title">Natureza Preservada</h4>
+                                <p class="about__feature-text">Área verde com nascentes de água cristalina, trilhas particulares e fauna local.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about__feature">
+                            <i class="fas fa-home about__feature-icon"></i>
+                            <div class="about__feature-content">
+                                <h4 class="about__feature-title">Conforto Premium</h4>
+                                <p class="about__feature-text">Temos tudo que você precisa para uma estadia perfeita.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about__feature">
+                            <i class="fas fa-medal about__feature-icon"></i>
+                            <div class="about__feature-content">
+                                <h4 class="about__feature-title">Excelência</h4>
+                                <p class="about__feature-text">Avaliação 5 estrelas em todas as plataformas de hospedagem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#gallery" class="button button--secondary">Veja nossa galeria</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Estatísticas -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stats__item">
+                    <span class="stats__number" data-count="9">0</span>
+                    <span class="stats__label">Anos de experiência</span>
+                </div>
+                
+                <div class="stats__item">
+                    <span class="stats__number" data-count="100">0</span>
+                    <span class="stats__label">% avaliação 5★</span>
+                </div>
+                
+                <div class="stats__item">
+                    <span class="stats__number" data-count="500">0</span>
+                    <span class="stats__label">Hóspedes felizes</span>
+                </div>
+                
+                <div class="stats__item">
+                    <span class="stats__number" data-count="20">0</span>
+                    <span class="stats__label">Min do centro</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Nosso Espaço</span>
+                <h2 class="section__title">Galeria</h2>
+                <div class="section__divider"></div>
+            </div>
+            
+            <div class="gallery__grid">
+                <div class="gallery__item">
+                    <img src="imagens/adriana.jpeg" alt="Jardim do Sítio Jacarandá" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <i class="fas fa-search gallery__zoom"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="imagens/flores.avif" alt="Natureza no Sítio" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <i class="fas fa-search gallery__zoom"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="imagens/fogueira.avif" alt="Área externa com fogueira" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <i class="fas fa-search gallery__zoom"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="imagens/tucano.avif" alt="Tucano" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <i class="fas fa-search gallery__zoom"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="imagens/placas.jpeg" alt="Placas" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <i class="fas fa-search gallery__zoom"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery__item">
+                    <img src="imagens/casa inteira.avif" alt="Sitio Jacarandá" class="gallery__image">
+                    <div class="gallery__overlay">
+                        <i class="fas fa-search gallery__zoom"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery__cta">
+                <p class="gallery__cta-text">Quer ver mais do nosso espaço?</p>
+                <a href="https://www.instagram.com/sitiojacarandastl/" target="_blank" class="button button--primary">
+                    <i class="fab fa-instagram"></i> Siga-nos no Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Reservas -->
+    <section class="section booking" id="booking">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Sua Estadia</span>
+                <h2 class="section__title">Reservas</h2>
+                <div class="section__divider"></div>
+            </div>
+            
+            <div class="booking__grid">
+                <div class="booking__content">
+                    <h3 class="booking__title">Como reservar</h3>
+                    <p class="booking__text">Garanta sua estadia no Sítio Jacarandá através das nossas plataformas parceiras ou entre em contato diretamente conosco.</p>
+                    
+                    <div class="booking__options">
+                        <a href="https://www.airbnb.com.br/rooms/9952637?source_impression_id=p3_1745008503_P3jt_8TuDTcOEq-b" target="_blank" class="booking__option">
+                            <div class="booking__option-icon">
+                                <i class="fab fa-airbnb"></i>
+                            </div>
+                            <div class="booking__option-content">
+                                <h4 class="booking__option-title">Reserve pelo Airbnb</h4>
+                                <p class="booking__option-text">Verifique disponibilidade e faça sua reserva online</p>
+                            </div>
+                        </a>
+                        
+                        <a href="http://wa.me/message/YL7ZTI23RKI2M1" target="_blank" class="booking__option">
+                            <div class="booking__option-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="booking__option-content">
+                                <h4 class="booking__option-title">WhatsApp</h4>
+                                <p class="booking__option-text">Fale diretamente conosco para dúvidas e reservas</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="booking__contact">
+                        <p class="booking__contact-item">
+                            <i class="fas fa-phone booking__contact-icon"></i>
+                            (35) 9825-7026
+                        </p>
+                        <p class="booking__contact-item">
+                            <i class="fas fa-envelope booking__contact-icon"></i>
+                            contato@sitiojacaranda.com
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="booking__testimonials">
+                    <h3 class="booking__title">O que dizem nossos hóspedes</h3>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial__content">
+                            <p class="testimonial__text">"O Sítio Jacarandá é simplesmente perfeito, muito aconchegante e tranquilo. Foram dias incríveis perto da natureza. Recomendo de olhos fechados!"</p>
+                        </div>
+                        <div class="testimonial__author">
+                            <span class="testimonial__name">Thais</span>
+                            <span class="testimonial__source">Via Airbnb</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial__content">
+                            <p class="testimonial__text">"A estadia no Sítio foi maravilhosa! Adriana é muito simpática e gentil! A natureza do lugar acalma o coração!"</p>
+                        </div>
+                        <div class="testimonial__author">
+                            <span class="testimonial__name">Julia</span>
+                            <span class="testimonial__source">Via Booking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Localização -->
+    <section class="section location" id="location">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Como chegar</span>
+                <h2 class="section__title">Localização</h2>
+                <div class="section__divider"></div>
+            </div>
+            
+            <div class="location__grid">
+                <div class="location__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3706.9258880132875!2d-44.94011302580941!3d-21.70560249604695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9fd46d1edf400b%3A0x721a53ddbf325930!2sS%C3%ADtio%20Jacarand%C3%A1%20Hospedagem!5e0!3m2!1spt-BR!2sbr!4v1745004306406!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+                <div class="location__content">
+                    <h3 class="location__title">Endereço</h3>
+                    <p class="location__address">
+                        Estrada p/ Sobradinho km 8 - Zona Rural, Bairro Canta Galo<br>
+                        próx. Cachoeira da Lua, São Tomé das Letras - MG<br>
+                        CEP: 37418-000
+                    </p>
+                    
+                    <div class="location__directions">
+                        <h4 class="location__subtitle">Orientações:</h4>
+                        <ul class="location__list">
+                            <li class="location__list-item">
+                                <i class="fas fa-car location__icon"></i>
+                                <span>20 minutos do centro de São Tomé</span>
+                            </li>
+                            <li class="location__list-item">
+                                <i class="fas fa-road location__icon"></i>
+                                <span>Próximo a cachoeira da Lua</span>
+                            </li>
+                            <li class="location__list-item">
+                                <i class="fas fa-map-marked-alt location__icon"></i>
+                                <span>Coordenadas: 21°42'20.2"S 44°56'15.2"W</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <a href="https://maps.google.com?q=Sitio+Jacaranda+Sao+Tome+das+Letras" target="_blank" class="button button--secondary">
+                        <i class="fas fa-directions"></i> Obter rotas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle">Fale conosco</span>
+                <h2 class="section__title">Contato</h2>
+                <div class="section__divider"></div>
+                <p class="section__description">Estamos aqui para ajudar! Escolha a melhor forma de entrar em contato:</p>
+            </div>
+
+            <div class="contact__methods">
+                <!-- Cartão WhatsApp -->
+                <div class="contact__card contact__card--whatsapp">
+                    <div class="contact__card-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="contact__card-content">
+                        <h3>WhatsApp</h3>
+                        <p>Respostas rápidas para reservas e dúvidas</p>
+                        <a href="http://wa.me/message/YL7ZTI23RKI2M1" target="_blank" class="button button--whatsapp">
+                            <i class="fab fa-whatsapp"></i> Enviar mensagem
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cartão E-mail -->
+                <div class="contact__card contact__card--email">
+                    <div class="contact__card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact__card-content">
+                        <h3>E-mail</h3>
+                        <p>Para orçamentos detalhados ou documentos</p>
+                        <a href="mailto:contato@sitiojacaranda.com" class="button button--email">
+                            <i class="fas fa-envelope"></i> Enviar e-mail
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cartão Telefone -->
+                <div class="contact__card contact__card--phone">
+                    <div class="contact__card-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact__card-content">
+                        <h3>Telefone</h3>
+                        <p>Atendimento das 8h às 20h</p>
+                        <a href="tel:+553598257026" class="button button--phone">
+                            <i class="fas fa-phone-alt"></i> Ligar agora
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ -->
+            <div class="contact__faq">
+                <h3 class="faq__title">Perguntas frequentes</h3>
+                
+                <details class="faq__item">
+                    <summary class="faq__question">
+                        Qual o horário de check-in/check-out?
+                        <i class="fas fa-chevron-down"></i>
+                    </summary>
+                    <p class="faq__answer">Check-in a partir das 14h | Check-out até 12h.</p>
+                </details>
+                
+                <details class="faq__item">
+                    <summary class="faq__question">
+                        Aceitam pets?
+                        <i class="fas fa-chevron-down"></i>
+                    </summary>
+                    <p class="faq__answer">Não aceitamos animais.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__about">
+                    <h3 class="footer__title">Sítio Jacarandá</h3>
+                    <p class="footer__text">Hospedagem premium em meio à natureza de São Tomé das Letras - MG. Conforto, tranquilidade e conexão com o ambiente natural.</p>
+                </div>
+                
+                <div class="footer__links">
+                    <h3 class="footer__title">Links rápidos</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="#hero" class="footer__link">Início</a></li>
+                        <li class="footer__list-item"><a href="#about" class="footer__link">Sobre</a></li>
+                        <li class="footer__list-item"><a href="#gallery" class="footer__link">Galeria</a></li>
+                        <li class="footer__list-item"><a href="#booking" class="footer__link">Reservas</a></li>
+                        <li class="footer__list-item"><a href="#location" class="footer__link">Localização</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__contact">
+                    <h3 class="footer__title">Contato</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <i class="fas fa-map-marker-alt footer__icon"></i>
+                            Estrada para São Tomé das Letras, KM 12
+                        </li>
+                        <li class="footer__list-item">
+                            <i class="fas fa-phone footer__icon"></i>
+                            (35) 9825-7026
+                        </li>
+                        <li class="footer__list-item">
+                            <i class="fas fa-envelope footer__icon"></i>
+                            contato@sitiojacaranda.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <div class="footer__copyright">
+                    &copy; <span id="year"></span> Sítio Jacarandá. Todos os direitos reservados.
+                </div>
+                
+                <div class="footer__credits">
+                    Desenvolvido por <a href="https://www.linkedin.com/in/brunosena12/" class="footer__credit-link" target="_blank">Bruno Sena</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <a href="#hero" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
